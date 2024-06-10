@@ -1,0 +1,6 @@
+# cloudflare headers file
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# no robots
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
